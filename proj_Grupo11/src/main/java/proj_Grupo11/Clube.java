@@ -714,14 +714,18 @@ public class Clube {
         return null;
     }
 
-    // a)
-    public void addCompEx(CompeticaoExterna ce1) {
-        ce.add(ce1);
+       /**
+     * Adiciona uma competição externa
+     *
+     * @param cExterna  Competição externa
+     */
+    public void addCompEx(CompeticaoExterna cExterna) {
+        ce.add(cExterna);
 
     }
 
-    public void addCompIn(CompeticaoInterna ci1) {
-        ci.add(ci1);
+    public void addCompIn(CompeticaoInterna cInterna) {
+        ci.add(cInterna);
 
     }
 
